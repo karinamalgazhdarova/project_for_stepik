@@ -16,3 +16,10 @@ class MainPageOnlineShop():
     PRICE = (By.CSS_SELECTOR, "div.col-sm-6.product_main p.price_color")
     NAMEBOOKINBASKET = (By.CSS_SELECTOR, "div > div.alert:nth-child(1) > div.alertinner > strong")
     PRICEINBASKET = (By.CSS_SELECTOR, "div > div.alert:nth-child(3) > div.alertinner > p > strong")
+
+class ProductPageLocators():
+    SUCCESS_MESSAGE = (By.CSS_SELECTOR, "div > div.alert:nth-child(1)")
+
+class BasePageLocators():
+    LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
+    LOGIN_LINK_INVALID = (By.CSS_SELECTOR, "#login_link_inc")
